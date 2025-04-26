@@ -37,7 +37,7 @@
   </template>
   
   <script setup>
-  import { computed } from 'vue'
+  import { computed, defineProps } from 'vue'
   import { useRoute } from 'vue-router'
   
   // Get the current route
